@@ -429,8 +429,8 @@
     $(document).on('submit', '#contact-form', function (e) {
       e.preventDefault();
       console.log($('#FirstName').val())
-      if ($('#FirstName').val() == "" || $('#LastName').val() == null ||
-        $('#Email').val() == null || $('#Message').val() == null) {
+      if ($('#FirstName').val() == "" || $('#LastName').val() == "" ||
+        $('#Email').val() == "" || $('#Message').val() == "") {
         alert("Give complete info")
       }
       else {
