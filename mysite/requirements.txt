@@ -1,0 +1,5 @@
+firebase
+gcloud
+python_jwt
+requests_toolbelt
+sseclient

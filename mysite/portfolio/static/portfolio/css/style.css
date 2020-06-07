@@ -832,3 +832,6 @@ h1, h2, h3, h4, h5, h6 {
 .blockquote img {
   width: 40px;
   border-radius: 50%; }
+.container{
+  max-width: 80%;
+}

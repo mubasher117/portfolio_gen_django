@@ -25,7 +25,7 @@ SECRET_KEY = '(pdta$-17^fswx&6mief9x_4t&$@%&0=u-syb4bsofwa2z#70&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mubasher.pythonanywhere.com']
+ALLOWED_HOSTS = ['portfolio2020.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
