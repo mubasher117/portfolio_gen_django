@@ -840,3 +840,12 @@ h1, h2, h3, h4, h5, h6 {
   align-content: center;
   justify-content: center;
 }
+.wafill-img-container{
+  text-align: center;
+}
+.img-wafill{
+  max-width: 50%;
+}
+.img-predictor{
+  max-width: 70%;
+}

@@ -259,10 +259,10 @@
 
 
         <div class="row mb-5">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="{% static 'portfolio/images/WafillHome.jpg' %}" alt="Image" class="img-fluid" class="img-fluid">
-            <img src="{% static 'portfolio/images/WafillShop.jpg' %}" alt="Image" class="img-fluid" class="img-fluid">
-            <img src="{% static 'portfolio/images/WafillOrder.jpg' %}" alt="Image" class="img-fluid" class="img-fluid">
+          <div class="col-lg-6 mb-4 mb-lg-0 wafill-img-container">
+            <img class="img-wafill" src="{% static 'portfolio/images/WafillHome.jpg' %}" alt="Image" class="img-fluid" class="img-fluid">
+            <img class="img-wafill" src="{% static 'portfolio/images/WafillShop.jpg' %}" alt="Image" class="img-fluid" class="img-fluid">
+            <img class="img-wafill" src="{% static 'portfolio/images/WafillOrder.jpg' %}" alt="Image" class="img-fluid" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
             <h3>WaFill</h3>
@@ -291,6 +291,22 @@
             </p>
 
 
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-lg-6 mb-4 mb-lg-0 wafill-img-container">
+            <img class="img-predictor" src="{% static 'portfolio/images/predictor1.png' %}" alt="Image" class="img-fluid" class="img-fluid">
+            <img class="img-predictor" src="{% static 'portfolio/images/predictor2.png' %}" alt="Image" class="img-fluid" class="img-fluid">
+          </div>
+          <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
+            <h3>Digit Predictor</h3>
+            <p class="mb-4">A learned single digit predictor. It is trained on 20x20 5000 greyscale images. It is trained on a logistic regression model. Hypothesis function, cost function and gradient descent are made from scratch. Any external library is not used.
+            </p>
+            <p class="mb-5"><strong class="text-black">Technology:</strong> Octave
+            </p>
+
+            <!-- <p class="mb-4"><a href="http://rent-inn-official.herokuapp.com/" class="readmore">Download</a></p> -->
           </div>
         </div>
 
@@ -429,20 +445,20 @@
   </footer>
   </div>
 
-  <script src="{% static 'portfolio/js/jquery-3.3.1.min.js' %}"></script>
-  <script src="{% static 'portfolio/js/popper.min.js' %}"></script>
-  <script src="{% static 'portfolio/js/bootstrap.min.js' %}"></script>
-  <script src="{% static 'portfolio/js/owl.carousel.min.js' %}"></script>
-  <script src="{% static 'portfolio/js/aos.js' %}"></script>
-  <script src="{% static 'portfolio/js/jquery.sticky.js' %}"></script>
-  <script src="{% static 'portfolio/js/stickyfill.min.js' %}"></script>
-  <script src="{% static 'portfolio/js/jquery.easing.1.3.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/jquery-3.3.1.min.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/popper.min.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/bootstrap.min.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/owl.carousel.min.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/aos.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/jquery.sticky.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/stickyfill.min.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/jquery.easing.1.3.js' %}"></script>
 
-  <script src="{% static 'portfolio/js/jquery.fancybox.min.js' %}"></script>
-  <script src="{% static 'portfolio/js/main.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/jquery.fancybox.min.js' %}"></script>
+  <script defer src="{% static 'portfolio/js/main.js' %}"></script>
 
 
-  <script>
+  <script defer >
 
     $(document).on('submit', '#contact-form', function (e) {
       e.preventDefault();
