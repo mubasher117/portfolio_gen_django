@@ -1,8 +1,12 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect, HttpResponse
 from firebase import firebase
+from django.core.files import File
+from django.templatetags.static import static
 
 # Create your views here.
+
+
 def index(request):
     return(render(request, 'portfolio/index.html'))
 
@@ -22,7 +26,6 @@ def message(firstName, lastName, email, messageBody):
     
 
 def contact(request):
-    print("In contact")
     if request.method == 'POST':
         firstName = request.POST['FirstName']
         lastName = request.POST['LastName']
