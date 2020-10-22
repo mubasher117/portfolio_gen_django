@@ -23,7 +23,6 @@ def message(firstName, lastName, email, messageBody):
     }
     result = firebaseReq.post('/WebsiteUser',data)
     print(result)
-    
 
 def contact(request):
     if request.method == 'POST':
@@ -33,6 +32,13 @@ def contact(request):
         messageBody = request.POST['messageBody']
         message(firstName, lastName, email, messageBody)
         return HttpResponse('Message sent successfully')
+    
+def blogs(request):
+    return render(request, 'portfolio/blogs.html')
+
+
+def blog(request):
+    return render(request, 'portfolio/blog.html')
         
     
 
