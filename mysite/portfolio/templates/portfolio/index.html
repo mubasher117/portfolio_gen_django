@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Portfolio</title>
+  <title>Mubasher | Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {% load static %}
@@ -40,7 +40,7 @@
     </div>
 
 
-    <div class="site-navbar-wrap">
+    <div class="site-navbar-wrap" id="main">
 
       <div class="site-navbar site-navbar-target js-sticky-header">
         <div class="container">
@@ -101,7 +101,7 @@
                 <h1>Mubasher Ahmad</h1>
               </div>
               <div class="text">
-                <p class="sub-text mb-5">Software Engineer</p>
+                <p class="sub-text mb-5">Full Stack Developer</p>
 
               </div>
             </div>
@@ -120,17 +120,18 @@
           </div>
           <div class="col-lg-5 ml-auto section-title">
             <span class="sub-title mb-2 d-block">About</span>
-            <h2 class="title text-primary mb-3">I'm Expert in Web</h2>
-            <p class="mb-4">I have experience of Web development and mobile app development for almost a year. I
-              currently work in HUAWEI Center, KICS. I have a good grip on latest technologies like React JS, React
-              Native and Django. I'm hard working and fully devoted to my work. I have my own websites of my portfolios
-              and research works.</p>
+            <h2 class="title text-primary mb-3">I'm Expert in Development</h2>
+            <p class="mb-4">
+              I have experience of Web and Mobile App Development for almost more than a year. I am currently
+              working in Funnel Beam as a Full Stack Developer. I have also done several free lancing projects during my academic
+              period. I have keen interest in hands on learning the latest technologies. I'm hard working and fully devoted to my work.
+            </p>
             <div class="d-flex">
               <ul class="list-unstyled ul-check success mr-5">
-                <li>Full Stack Web Development</li>
+                <li>Web Development</li>
                 <li>Android App Development</li>
+                <li>Python Development</li>
                 <li>Cloud Computing</li>
-                <li>eCommerce</li>
                 <li>Design</li>
               </ul>
             </div>
@@ -138,9 +139,9 @@
             <div class="row">
           <div class="col-12 about-btn-container">
 
-            <a href="{% static 'portfolio/MubasherAhmadCV.pdf' %}" style="margin-right: 30px;">
+            <!-- <a href="{% static 'portfolio/MubasherAhmadCV.pdf' %}" style="margin-right: 30px;">
               <button type="submit" class="btn btn-primary btn-md">View Details</button>
-            </a>
+            </a> -->
             <a href="{% static 'portfolio/MubasherAhmadCV.pdf' %}">
               <button type="submit" class="btn btn-primary btn-md">View Resume</button>
             </a>
@@ -174,8 +175,8 @@
                 <div class="service h-100">
                   <span class="icon-laptop_mac display-4 text-primary d-block mb-4"></span>
                   <h3>Web Applications</h3>
-                  <p>I have experience in several web development technologies. But I prefer new technologies like
-                    <b>REACT JS</b> and <b>DJANGO</b> with <b>Firebase</b> Cloud. </p>
+                  <p>I have experience in web development for more than a year. I prefer latest and demanding technologies like
+                    <b>REACT JS</b>, <b>Angular JS</b>  and <b>DJANGO</b> with <b>Firebase</b> Cloud. </p>
                   <!-- <p><a href="#" class="readmore">Learn more</a></p> -->
                 </div>
               </div>
@@ -184,8 +185,8 @@
                 <div class="service h-100">
                   <span class="icon-mobile display-4 text-primary d-block mb-4"></span>
                   <h3>Mobile Applications</h3>
-                  <p>I have quite experience in Mobile App Development. I have done mobile development in <b>Android
-                      Studio</b> and <b>REACT Native</b> with <b>Firebase</b> Cloud. </p>
+                  <p>I have quite experience in Mobile App Development. I have done several mobile app projects in 
+                    cross platform technologies <b>REACT Native</b> with <b>Firebase</b> Cloud. </p>
                   <!-- <p><a href="#" class="readmore">Learn more</a></p> -->
                 </div>
               </div>
@@ -193,8 +194,9 @@
                 <div class="service h-100">
                   <span class="icon-desktop display-4 text-primary d-block mb-4"></span>
                   <h3>Desktop Applications</h3>
-                  <p>Quite experience in making desktop applications. For this purpose, I use one of the most popular
-                    framework i.e <b>.NET</b> </p>
+                  <p>I've done multiple desktop app projects including an inventory system, a learning management system
+                    and a project grade calculating
+                     system using <b>.NET</b> </p>
                   <!-- <p><a href="#" class="readmore">Learn more</a></p> -->
                 </div>
               </div>
@@ -256,7 +258,7 @@
 
           </div>
         </div>
-        <div class="row mb-5">
+         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
             <img src="{% static 'portfolio/images/dipleo1.png' %}" alt="Image" class="img-fluid" class="img-fluid">
             <img src="{% static 'portfolio/images/dipleo2.png' %}" alt="Image" class="img-fluid" class="img-fluid">
@@ -274,6 +276,23 @@
             </p>
 
             <p class="mb-4"><a href="http://dipleo.com:8000/" class="readmore">Visit website</a></p>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img src="{% static 'portfolio/images/eCopiesHome.jpeg' %}" alt="Image" class="img-fluid" class="img-fluid">
+            <img src="{% static 'portfolio/images/eCopiesMyOrders.jpeg' %}" alt="Image" class="img-fluid" class="img-fluid">
+            <img src="{% static 'portfolio/images/eCopiesPayments' %}" alt="Image" class="img-fluid"
+              class="img-fluid">
+          </div>
+          <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
+            <h3>eCopies</h3>
+            <p class="mb-4">
+               A mobile app to get certified/attested copies from any department. I designed, developed, tested and deployed the complete system on my own. This system consists of one consumer app, one receiver app and one admin end web app. 
+            </p>
+            <p class="mb-5"><strong class="text-black">Technologies:</strong> React JS, React Native, Firebase, Node.js, Express, Redux            </p>
+
+            <p class="mb-4"><a href="https://play.google.com/store/apps/details?id=com.ecopies" class="readmore">Download from Google Play</a></p>
           </div>
         </div>
         <div class="row mb-5">
@@ -422,10 +441,12 @@
           <div class="row mb-5">
             <div class="col-12">
               <h3 class="footer-heading mb-4">About</h3>
-              <p>I have experience of Web development and mobile app development for almost a year. I currently work in
-                HUAWEI Center, KICS. I have a good grip on latest technologies like React JS, React Native and Django.
-                I'm hard working and fully devoted to my work. I have my own websites of my portfolios and research
-                works.</p>
+              <p>
+
+              I have experience of Web and Mobile App Development for almost more than a year. I am currently
+              working in Funnel Beam as a Full Stack Developer. I have also done several free lancing projects during my academic
+              period. I have keen interest in hands on learning the latest technologies. I'm hard working and fully devoted to my work.
+              </p>
             </div>
           </div>
 
@@ -485,7 +506,7 @@
                 class="icon-facebook"></span></a>
             <a href="https://twitter.com/mushi_mubashir" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
             <a href="https://github.com/mushiahmad-007" class="pl-3 pr-3"><span class="icon-github"></span></a>
-            <a href="https://www.linkedin.com/in/mubashir-ahmad-316164180/" class="pl-3 pr-3"><span
+            <a href="https://www.linkedin.com/in/mubasher-ahmad-316164180" class="pl-3 pr-3"><span
                 class="icon-linkedin"></span></a>
           </div>
 
@@ -493,7 +514,7 @@
 
             Copyright &copy;
             <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
-              href="https://colorlib.com" target="_blank">Mubasher Ahmad</a>
+              href="#main" target="_blank">Mubasher Ahmad</a>
 
           </p>
 
